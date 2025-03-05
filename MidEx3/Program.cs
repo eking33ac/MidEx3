@@ -26,9 +26,9 @@ namespace MidEx3
             int nextValue;
 
             // prompt user to input values
-            for (int i = 0; i == n; i++)
+            for (int i = 0; i <n; i++)
             {
-                Console.WriteLine("input next value");
+                Console.WriteLine("input  value element "+i);
                 nextValue = Convert.ToInt32( Console.ReadLine());
                 returnValue[i] = nextValue;
             }
